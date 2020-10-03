@@ -1,4 +1,3 @@
-require 'pry'
 
 def game_hash
 
@@ -125,7 +124,7 @@ def game_hash
   }
   ]
   }
-  }
+}
 hash
-binding.pry
+
 end
