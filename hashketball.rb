@@ -1,18 +1,25 @@
 require 'pry'
 
-def game_hash(hash)
+def game_hash
 
-  hash.each_with_object({}) do |(key, value), game_hash|
-    value.each do |inner_keys, inner_value|
-      binding.pry
-    end
-    binding.pry
-  end
-
-
-return game_hash
-binding.pry
-
-
+  Hash = {
+    home => {
+      :team_name => "Brooklyn Nets",
+      :colors => "Black, White",
+      :players => {
+        :player_name => "Alan Anderson",
+        :number => 0,
+        :shoe => 16,
+        :points => 22,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 3,
+        :blocks => 1,
+        :slam_dunks => 1,
+      }
+      
+    }
+  }
+  
 
 end
