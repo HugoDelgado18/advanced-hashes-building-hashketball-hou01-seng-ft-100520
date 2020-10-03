@@ -10,7 +10,7 @@ def game_hash(hash)
   end
 
 
-
+new_hash
 binding.pry
 
 
