@@ -10,7 +10,7 @@ def game_hash(hash)
   end
 
 
-return new_hash
+return game_hash
 binding.pry
 
 
