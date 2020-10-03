@@ -126,6 +126,6 @@ def game_hash
   ]
   }
 }
- return hash
+# return hash
 
 end
