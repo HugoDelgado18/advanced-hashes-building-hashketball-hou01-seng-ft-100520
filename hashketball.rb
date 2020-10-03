@@ -1,6 +1,7 @@
 #require 'pry'
 
-def game_hash(data)
+def game_hash(hash)
+
 
 
 
